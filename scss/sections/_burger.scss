@@ -103,7 +103,13 @@
     z-index: 999;
   }
         .bigbro {
-            width: 300px;
+            width: 400px;
             height: 200px;
         }
+}
+@media (max-width:400px) {
+            .bigbro {
+                    width: 250px;
+                    height: 100px;
+                }
 }
