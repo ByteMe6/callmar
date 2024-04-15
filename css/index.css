@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a, h1, h2, h3, h4, h5, h6, p, span {
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  width: 100px;
+}
+
+header {
+  background-color: #d45b78;
+  background: rgb(75, 56, 98);
+  background: linear-gradient(90deg, rgb(75, 56, 98) 0%, rgb(212, 91, 120) 100%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logInBtn {
+  margin-right: 30px;
+}
+
+.hero {
+  background-color: #d45b78;
+  background: rgb(75, 56, 98);
+  background: linear-gradient(90deg, rgb(75, 56, 98) 0%, rgb(212, 91, 120) 100%);
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.bigbro {
+  height: 30rem;
+}
+
+.heroText {
+  font-size: larger;
+}
+
+.heroBTN {
+  text-transform: uppercase;
+}
+
+@media (max-width: 1030px) {
+  .bigbro {
+    height: 20rem;
+  }
+}

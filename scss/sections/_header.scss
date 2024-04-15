@@ -1,0 +1,18 @@
+.logo {
+  width: 100px;
+}
+header {
+  background-color: #d45b78;
+  background: rgb(75, 56, 98);
+  background: linear-gradient(
+    90deg,
+    rgba(75, 56, 98, 1) 0%,
+    rgba(212, 91, 120, 1) 100%
+  );
+    display: flex;
+    justify-content: space-around;
+  align-items: center;
+}
+.logInBtn{
+  margin-right: 30px;
+}

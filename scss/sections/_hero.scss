@@ -1,0 +1,28 @@
+.hero {
+  background-color: #d45b78;
+  background: rgb(75, 56, 98);
+  background: linear-gradient(
+    90deg,
+    rgba(75, 56, 98, 1) 0%,
+    rgba(212, 91, 120, 1) 100%
+  );
+  text-align: center;
+  padding-bottom: 5%;
+}
+.bigbro{
+    height: 30rem;
+}
+.heroText{
+//     width: 961px;
+//   text-align: center;   
+//   margin-left: 15%;
+    font-size: larger;
+}
+.heroBTN{
+    text-transform: uppercase;
+}
+@media (max-width:1030px) {
+    .bigbro {
+            height: 20rem;
+        }
+}
