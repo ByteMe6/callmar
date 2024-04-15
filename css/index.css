@@ -162,3 +162,11 @@ header {
     height: 100px;
   }
 }
+.video {
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  background-color: #414141;
+}
