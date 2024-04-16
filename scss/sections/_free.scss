@@ -13,24 +13,32 @@
     rgba(44, 33, 66, 1) 100%
   );
   //   background: url("../img/free-bg.png");
-//   background-position: 0%;
-//   background-size: cover;
+  //   background-position: 0%;
+  //   background-size: cover;
   // height: 1000px;
   padding-bottom: 100px;
   padding-top: 100px;
-//   display: flex;
-//   flex-direction: row;
-//   align-items: center;
+  //   display: flex;
+  @media (max-width: 700px) {
+    padding-bottom: 0px;
+  }
+  //   flex-direction: row;
+  //   align-items: center;
   z-index: -100;
 }
 .card {
   display: block;
   width: 350px;
   height: 404px;
-//   background: rgb(255, 131, 131);
-background: rgb(212, 91, 120);
-    background: linear-gradient(176deg, rgba(212, 91, 120, 1) 0%, rgba(75, 56, 98, 1) 100%);
+  //   background: rgb(255, 131, 131);
+  background: rgb(212, 91, 120);
+  background: linear-gradient(
+    176deg,
+    rgba(212, 91, 120, 1) 0%,
+    rgba(75, 56, 98, 1) 100%
+  );
   z-index: 0;
+  margin-bottom: 50px;
   h3 {
     font-size: 50px;
   }
@@ -38,12 +46,12 @@ background: rgb(212, 91, 120);
     font-size: 26px;
   }
   padding: 20px;
-//   background-image: url("../img/card-free-bg.png");
+  //   background-image: url("../img/card-free-bg.png");
   background-position: 100%;
   //   background-size:404px 404px;
   background-size: inherit;
   // background-size: revert;
-//   background-size: revert-layer;
+  //   background-size: revert-layer;
 }
 
 // .card2{
@@ -63,4 +71,13 @@ background: rgb(212, 91, 120);
 }
 header {
   position: static;
+}
+@media (min-width: 700px) {
+  .none {
+    display: none;
+  }
+}
+.none {
+  width: 100%;
+  padding: 0;
 }
