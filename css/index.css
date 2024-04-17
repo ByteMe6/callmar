@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 * {
   box-sizing: border-box;
   padding: 0;
@@ -232,4 +233,82 @@ header {
 .none {
   width: 100%;
   padding: 0;
+}
+
+.work-container {
+  background: rgb(79, 57, 99);
+  background: linear-gradient(90deg, rgb(79, 57, 99) 0%, rgb(118, 68, 105) 33%, rgb(94, 62, 102) 70%, rgb(44, 33, 66) 100%);
+  box-shadow: 50px 42px 25px 19px rgba(0, 0, 0, 0.75);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(2, auto);
+  grid-gap: 20px;
+  padding-top: 350px;
+  padding-bottom: 350px;
+}
+@media (min-width: 1200px) {
+  .work-container {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+@media (min-width: 700px) {
+  .work-container {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+@media (max-width: 700px) {
+  .work-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .work-container .number-work {
+    font-size: 46px;
+  }
+  .work-container .card-work {
+    min-height: 100px;
+    margin: 0;
+  }
+  .work-container .card-work:nth-child(2),
+  .work-container .card-work:nth-child(4) {
+    align-self: center;
+    margin-top: 0px;
+  }
+  .work-container .card-work:nth-child(1),
+  .work-container .card-work:nth-child(3) {
+    align-self: center;
+    margin-bottom: 0px;
+  }
+}
+
+.number-work {
+  color: #944b6e;
+  font-size: 86px;
+  font-weight: bold;
+  font-family: roboto;
+}
+
+.card-work {
+  background: #523a64;
+  border-radius: 15px;
+  padding: 15px;
+  display: flex;
+}
+
+.card-work:nth-child(2),
+.card-work:nth-child(4) {
+  align-self: center;
+  margin-top: 100px;
+}
+
+.card-work:nth-child(1),
+.card-work:nth-child(3) {
+  align-self: center;
+  margin-bottom: 100px;
 }
